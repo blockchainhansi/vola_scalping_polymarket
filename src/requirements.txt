@@ -1,0 +1,26 @@
+# Polymarket Box Spread Market Maker - Dependencies
+
+# Polymarket CLOB client (official Python SDK)
+py-clob-client>=0.18.0
+
+# Async WebSocket client (for MARKET channel - orderbook updates)
+websockets>=12.0
+
+# Sync WebSocket client (for USER channel - fill detection, uses websocket-client)
+websocket-client>=1.7.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Ethereum utilities (for signing, used by py-clob-client)
+eth-account>=0.11.0
+web3>=6.15.0
+
+# HTTP client (httpx for any custom requests)
+httpx>=0.27.0
+
+# Logging
+structlog>=24.1.0
+
+# Utilities
+tenacity>=8.2.0  # Retry logic

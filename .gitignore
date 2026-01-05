@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+**/__pycache__/
+*.pyc
+.cursor/
+
+# Environment files (NEVER commit these - contain private keys!)
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# State files
+mm_state.json
+*.log
+
+# IDE
+.vscode/
+.idea/
